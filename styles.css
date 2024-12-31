@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+button.btn:hover {
+  background-color: #218838;
+}
+
+#meme-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+#meme {
+  width: 100%;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.meme-text {
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+}
+
+#top-text {
+  top: 10px;
+}
+
+#bottom-text {
+  bottom: 10px;
+}
